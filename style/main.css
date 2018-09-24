@@ -1,0 +1,638 @@
+body,
+html {
+  margin: 0;
+  width: 100vw;
+}
+
+.modal-backdrop {
+  display: none;
+}
+.bg-section {
+  width: 100vw;
+  height: 900px;
+  background-color: white;
+  transition: all ease-in-out 300ms;
+}
+.full-height {
+  height: 100%;
+}
+.center-vertical {
+  display: flex;
+  align-items: center;
+}
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+a {
+  color: #0276dd;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #2e99e8;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: 100;
+  color: white;
+}
+
+h2 {
+  font-weight: 100;
+  color: #003d6b;
+}
+
+h3 {
+  font-weight: 100;
+  color: #003d6b;
+}
+
+h4 {
+  font-weight: 300;
+  color: #003d6b;
+  line-height: 1.3;
+}
+
+h2.herramientas {
+  font-weight: 100;
+  color: #ffffff;
+  position: absolute;
+  bottom: 8px;
+  left: 45px;
+}
+
+.andino-navbar {
+  position: fixed;
+  width: 205px;
+  background-color: white;
+  height: 100vh;
+  z-index: 2;
+  padding-right: 9px;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 250px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  padding-left: 10px;
+}
+
+.button {
+  border: none;
+  margin-bottom: 10px;
+  margin: 5px;
+  color: #073f69;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 15px;
+  background-color: white;
+}
+
+.button-main {
+  border: 1px solid #bcdbed;
+  border-radius: 10px;
+  padding: 15px 25px;
+  background-color: transparent;
+  color: white;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: center;
+  max-width: 185px;
+}
+
+.button-main-margin-center {
+  margin: auto;
+  margin-top: 30px;
+  max-width: 260px;
+}
+
+.button-main:hover {
+  opacity: 0.5;
+  transition-duration: 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*
+
+PSEUDO CLASE PARA LAS LINEAS DE LOS BOTONES
+.button::before {
+
+    padding: 2px;
+    height: 0px;
+    width: 80%;
+    background-color: #073f69;
+    position: absolute;
+    top:-4;
+    content: "";
+}*/
+
+.main-container {
+  position: absolute;
+  overflow: scroll;
+  width: 100%;
+  z-index: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+button {
+  outline: none;
+}
+.bg-image {
+  background-image: url(bg-inicio.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-sec {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.bg-image-sec1 {
+  background-image: url(sec1.png);
+}
+
+.bg-image-sec2 {
+  background-image: url(sec2.png);
+}
+
+.bg-image-sec3 {
+  background-image: url(sec3.png);
+} 
+
+.bg-image-sec4 {
+  background-image: url(sec4.png);
+}
+
+
+
+.bg-section-tools {
+  width: 100vw;
+  background-color: white;
+  margin-bottom: 300px;
+}
+
+.bg-image-thumb-1 {
+  background-image: url(herramienta_1.png);
+  width: 480px;
+  height: 376px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid {
+  margin-left: 210px;
+  padding-left: 5px !important;
+}
+
+.main-title {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.main-text {
+  padding: 50px;
+  color: #003d6b;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  
+}
+
+.content {
+  width: 100vw;
+  padding-left: 300px;
+}
+
+.thumbnail-2 {
+  height: 340px;
+  width: 100%;
+}
+
+.row-up {
+  margin-bottom: 25px !important;
+}
+
+.title-down {
+  margin-bottom: 60px !important;
+}
+
+.plan-main {
+  max-width: 300px;
+  margin: auto;
+}
+
+.sec-img {
+  max-width: 450px;
+  margin: auto;
+  top: 50%;
+}
+
+
+
+
+.intuitivo {
+  position: absolute;
+  right: 0;
+  margin-right: -15px;
+}
+
+.mt75 {
+  margin-top: 75px !important;
+}
+
+.mlrauto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  padding: 25px;
+}
+
+.logo-blanco {
+  margin: auto;
+  text-align: center;
+}
+
+.logo-ministerio {
+  padding: 25px 25px 0 35px;
+  position: absolute;
+  bottom: 32px;
+  max-width: 185px;
+}
+
+.center-title {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.first-center-title {
+  margin-top: 120px;
+}
+
+.center-img-no-margin {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.left-title {
+  text-align: left;
+  display: block;
+  margin: auto;
+  margin-top: 15vh;
+}
+
+.centerelement {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.centerelement-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centermodal {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%) !important;
+}
+
+.modal-dialog {
+  position: relative;
+  width: 80% !important;
+  margin: 10px;
+}
+
+.modal-button {
+  border: solid 1px #073f69;
+  margin-bottom: 10px !important;
+  margin: 5px;
+  color: white;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 15px;
+  background-color: #073f69;
+  padding: 10px 25px !important;
+}
+
+.modal-button-back {
+  border: solid 1px #073f69;
+  margin-bottom: 10px !important;
+  margin: 5px;
+  color: #073f69;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 15px;
+  background-color: white;
+  padding: 10px 25px !important;
+}
+
+.callto {
+  color: white;
+  text-align: center;
+  line-height: 1.2 !important;
+}
+
+.mail-to {
+  color: #98d7f2;
+  font-weight: 500;
+}
+
+.img-rrss {
+  width: 35px;
+}
+
+.li-rrss {
+  display: inline;
+}
+
+.ul-rrss {
+  display: inline;
+}
+
+.rrss {
+  position: relative;
+  margin-top: 50px;
+}
+
+/* SCROLL ANIMATIONS */
+
+video::-webkit-media-controls {
+  display: none;
+}
+
+/* Could Use thise as well for Individual Controls */
+video::-webkit-media-controls-play-button {
+}
+
+video::-webkit-media-controls-volume-slider {
+}
+
+video::-webkit-media-controls-mute-button {
+}
+
+video::-webkit-media-controls-timeline {
+}
+
+video::-webkit-media-controls-current-time-display {
+}
+
+.listen {
+  opacity: 0;
+  transition: all ease-in-out 300ms;
+  transform: translate(0, 50px);
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+#sec0,
+#sec1,
+#sec1,
+#sec2,
+#sec4,
+#sec5 {
+  transition: all ease-in-out 300ms;
+}
+
+.active {
+  transition: all ease-in-out 300ms;
+  border-bottom: 1px solid #073f69;
+  border-top: 1px solid #073f69;
+  transform: scale(1.05);
+  font-weight: 600;
+  color: #073f69;
+  padding-top: 4px;
+}
+
+.quickanimation {
+  max-width: 730px;
+  margin: auto;
+}
+
+.paisanimation {
+  max-width: 625px;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.compuanimation {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.compu-img {
+  display: block;
+  margin: auto;
+}
+
+.andinoanimation {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.paraqueanimation {
+  max-width: 950px;
+  margin: auto;
+}
+/* TRIGGER ANIMATION */
+.listen-animation {
+  opacity: 0;
+}
+.start-animation {
+  opacity: 1;
+}
+
+.img-links:hover {
+  opacity: 0.5;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+.modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: none !important;
+}
+
+.modal {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+}
+
+.empezar {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* video {
+  width: 100% !important;
+  height: auto !important;
+} */
+
+/* TRANSITIONS */
+.desktop {
+  transition: all ease-in-out 300ms;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1422px) {
+  .herramientas {
+    font-weight: 100;
+    color: #ffffff;
+    position: absolute;
+    bottom: 8px;
+    left: 45px;
+    font-size: 22px !important;
+  }
+
+  .bg-section-tools {
+    width: 100vw;
+    background-color: white;
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .bg-section {
+    height: 800px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .container-fluid {
+    margin: auto;
+  }
+
+  .logo-andino {
+    width: 150px;
+    padding: 15px;
+  }
+  .navbar {
+    margin-bottom: 0px !important;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background: white;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: #073f69 !important;
+  }
+  .vh20 {
+    margin-top: 20vh;
+  }
+
+  .vh38 {
+    margin-top: 38vh;
+  }
+
+  .bg-section-tools {
+    width: 100vw;
+    background-color: white;
+    margin-bottom: 50px;
+  }
+
+  .img-responsive {
+    max-width: 100%;
+  }
+
+  .intuitivo {
+    position: absolute;
+    right: 0;
+    margin-right: -15px;
+    margin-top: -150px;
+    width: 291px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bg-section {
+    height: 800px;
+  }
+  .main-title {
+    top: 50%;
+  }
+}
+@media screen and (max-width: 990px) {
+
+  .sec-img {
+    position: relative;
+    transform: translateY(0%);
+    top: 0%;
+  }
+
+  .bg-image-sec {
+    height: 40vh;
+  }
+  .sec1-img {
+    max-width: 230px;
+  }
+
+  .sec2-img {
+    max-width: 280px;
+  }
+
+  .sec3-img {
+    max-width: 250px;
+  }
+
+  .sec4-img {
+    max-width: 260px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  .bg-image-sec-display {
+    display: flex !important;
+  }
+
+}
+
