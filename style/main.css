@@ -24,7 +24,6 @@ html {
   background: rgba(0, 0, 0, 0.5);
 }
 
-
 a {
   color: #0276dd;
   text-decoration: underline;
@@ -176,7 +175,6 @@ button {
   justify-content: center;
 }
 
-
 .bg-image-sec1 {
   background-image: url(sec1.png);
 }
@@ -187,13 +185,11 @@ button {
 
 .bg-image-sec3 {
   background-image: url(sec3.png);
-} 
+}
 
 .bg-image-sec4 {
   background-image: url(sec4.png);
 }
-
-
 
 .bg-section-tools {
   width: 100vw;
@@ -224,7 +220,6 @@ button {
   padding: 50px;
   color: #003d6b;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  
 }
 
 .content {
@@ -255,9 +250,6 @@ button {
   margin: auto;
   top: 50%;
 }
-
-
-
 
 .intuitivo {
   position: absolute;
@@ -601,7 +593,6 @@ video::-webkit-media-controls-current-time-display {
   }
 }
 @media screen and (max-width: 990px) {
-
   .sec-img {
     position: relative;
     transform: translateY(0%);
@@ -609,7 +600,11 @@ video::-webkit-media-controls-current-time-display {
   }
 
   .bg-image-sec {
-    height: 40vh;
+    height: 500px;
+  }
+
+  .centerelement-parent {
+    height: 600px;
   }
   .sec1-img {
     max-width: 230px;
@@ -629,10 +624,8 @@ video::-webkit-media-controls-current-time-display {
     align-items: center !important;
     justify-content: center !important;
   }
-  
+
   .bg-image-sec-display {
     display: flex !important;
   }
-
 }
-
