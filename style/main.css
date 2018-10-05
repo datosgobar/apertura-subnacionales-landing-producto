@@ -4,6 +4,10 @@ html {
   width: 100vw;
 }
 
+.no-padding {
+  padding: 0;
+}
+
 .modal-backdrop {
   display: none;
 }
@@ -131,6 +135,52 @@ a:hover {
   text-decoration: none;
 }
 
+#fondo_carpeta svg {
+  height: 100%;
+  transform: scale(2.1);
+  z-index: 0;
+}
+.carpeta_container {
+  height: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+#carpeta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+#segunda_animacion {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+#segunda_animacion svg {
+  transform: scale(1.5);
+}
+
+#lineas {
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+}
+
+.segunda_container {
+  height: 100%;
+  overflow: hidden;
+  z-index: 2;
+  background-color: #ffc23b;
+}
+
+.center-main-title {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 /*
 
 PSEUDO CLASE PARA LAS LINEAS DE LOS BOTONES
@@ -166,13 +216,13 @@ button {
 }
 
 .bg-image-sec {
-  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 .bg-image-sec1 {
@@ -197,6 +247,10 @@ button {
   margin-bottom: 300px;
 }
 
+.row {
+  height: 100vh;
+}
+
 .bg-image-thumb-1 {
   background-image: url(herramienta_1.png);
   width: 480px;
@@ -217,6 +271,7 @@ button {
 }
 
 .main-text {
+  height: 100%;
   padding: 50px;
   color: #003d6b;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -316,7 +371,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .centermodal {
@@ -611,7 +666,7 @@ video::-webkit-media-controls-current-time-display {
   }
 
   .sec2-img {
-    max-width: 280px;
+    max-width: 350px;
   }
 
   .sec3-img {
@@ -627,5 +682,26 @@ video::-webkit-media-controls-current-time-display {
 
   .bg-image-sec-display {
     display: flex !important;
+  }
+
+  .carpeta_container {
+    height: 40%;
+  }
+
+  .segunda_container {
+    height: 40%;
+  }
+
+  #segunda_animacion2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 990px) {
+  #fondo_carpeta {
+    height: 100%;
   }
 }

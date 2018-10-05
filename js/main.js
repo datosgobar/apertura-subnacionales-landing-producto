@@ -99,3 +99,60 @@ $(document).ready(function() {
   })
 })
 // document ready ends
+
+// ANIMATIONS
+lottie.loadAnimation({
+  wrapper: document.getElementById('carpeta'),
+  animType: 'svg',
+  loop: true,
+  autoplay: true,
+  path:
+    'https://gist.githubusercontent.com/sebasbarraud/b9229cf3b64d7b46d782f3742298b440/raw/544015d2b0e9dbef7eea10087f5f632f6303482c/carpeta.json',
+})
+
+lottie.loadAnimation({
+  wrapper: document.getElementById('fondo_carpeta'),
+  animType: 'svg',
+  loop: true,
+  autoplay: true,
+  path:
+    'https://gist.githubusercontent.com/sebasbarraud/a47c8a077ed9e9ae259ea8a208bbc5a6/raw/117ad4a80a5d938c9402f7a2651b65bb4c69fcbe/fondo_carpeta.json',
+})
+
+// nuevas
+
+lottie.loadAnimation({
+  wrapper: document.getElementById('segunda_animacion'),
+  animType: 'svg',
+  loop: true,
+  autoplay: true,
+  path:
+    'https://gist.githubusercontent.com/sebasbarraud/9749d2667a602cd1c249578c9868f371/raw/9651c13ed9e96bde82e08da689a712c7dc2824b3/segunda_animacion.json',
+})
+
+lottie.loadAnimation({
+  wrapper: document.getElementById('lineas'),
+  animType: 'svg',
+  loop: true,
+  autoplay: true,
+  path:
+    'https://gist.githubusercontent.com/sebasbarraud/fcd68307958ff15acef9d2b9ab2ce15e/raw/e2d35e6c380ed89c2d26a81874da0e8aedba2a26/lineas.json',
+})
+
+lottie.loadAnimation({
+  wrapper: document.getElementById('segunda_animacion2'),
+  animType: 'svg',
+  loop: true,
+  autoplay: true,
+  path:
+    'https://gist.githubusercontent.com/sebasbarraud/9749d2667a602cd1c249578c9868f371/raw/9651c13ed9e96bde82e08da689a712c7dc2824b3/segunda_animacion.json',
+})
+
+lottie.loadAnimation({
+  wrapper: document.getElementById('lineas2'),
+  animType: 'svg',
+  loop: true,
+  autoplay: true,
+  path:
+    'https://gist.githubusercontent.com/sebasbarraud/fcd68307958ff15acef9d2b9ab2ce15e/raw/e2d35e6c380ed89c2d26a81874da0e8aedba2a26/lineas.json',
+})
