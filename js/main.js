@@ -156,3 +156,39 @@ bodymovin.loadAnimation({
   path:
     'https://gist.githubusercontent.com/sebasbarraud/fcd68307958ff15acef9d2b9ab2ce15e/raw/e2d35e6c380ed89c2d26a81874da0e8aedba2a26/lineas.json',
 })
+
+bodymovin.loadAnimation({
+  wrapper: document.getElementById('fondo_json'),
+  animType: 'svg',
+  loop: true,
+  autoplay: true,
+  path:
+    'https://gist.githubusercontent.com/sebasbarraud/2654cd8997d5edab9d1be8428c6f5b20/raw/a1f7dcf5d4ff803e8af0195661464b4e1d0c0c9e/fondo_json.json',
+})
+
+bodymovin.loadAnimation({
+  wrapper: document.getElementById('files'),
+  animType: 'svg',
+  loop: true,
+  autoplay: true,
+  path:
+    'https://gist.githubusercontent.com/sebasbarraud/8aca3983e6162c8b32b4c5925ea8a16a/raw/34e83231dda0a965d60b33367feb79877442d5a8/files.json',
+})
+
+bodymovin.loadAnimation({
+  wrapper: document.getElementById('hexa'),
+  animType: 'svg',
+  loop: true,
+  autoplay: true,
+  path:
+    'https://gist.githubusercontent.com/sebasbarraud/400158173a100bffbb71530c1e7bf119/raw/f7f3a1d355b80ba83656de38e5ffeb735fe691a6/hexa.json',
+})
+
+bodymovin.loadAnimation({
+  wrapper: document.getElementById('hexa2'),
+  animType: 'svg',
+  loop: true,
+  autoplay: true,
+  path:
+    'https://gist.githubusercontent.com/sebasbarraud/400158173a100bffbb71530c1e7bf119/raw/f7f3a1d355b80ba83656de38e5ffeb735fe691a6/hexa.json',
+})
