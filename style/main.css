@@ -87,7 +87,7 @@ h2.herramientas {
 
 .button-container {
   position: absolute;
-  bottom: 250px;
+  bottom: 210px;
   display: flex;
   flex-direction: column;
   z-index: 2;
