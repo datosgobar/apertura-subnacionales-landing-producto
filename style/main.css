@@ -48,7 +48,7 @@ h6 {
 }
 
 h1 {
-  font-weight: 100;
+  font-weight: 400 !important;
   color: white;
 }
 
@@ -65,7 +65,7 @@ h3 {
 h4 {
   font-weight: 300;
   color: #003d6b;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 h2.herramientas {
@@ -619,6 +619,7 @@ video::-webkit-media-controls-current-time-display {
   }
   h1 {
     font-size: 30px;
+    font-weight: 400 !important;
   }
   .container-fluid {
     margin: auto;
